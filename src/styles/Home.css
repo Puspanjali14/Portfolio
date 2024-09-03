@@ -1,0 +1,36 @@
+/* Home.css */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  p {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+  }
+  
+  .cta-button {
+    background-color: #e63946;
+    color: #fff;
+    padding: 12px 30px;
+    border-radius: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #ff4d6d;
+  }
+  

@@ -1,0 +1,33 @@
+/* Header.css */
+header {
+    background-color: #1c1c1e; /* Darker background */
+    padding: 1rem;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    margin: 0 1rem;
+  }
+  
+  nav ul li a {
+    color: #e0e0e0;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  nav ul li a:hover {
+    color: #ff4d6d; /* Accent color on hover */
+  }
+  
+  .icon {
+    margin-right: 0.5rem;
+  }
+  

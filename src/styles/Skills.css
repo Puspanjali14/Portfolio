@@ -1,0 +1,36 @@
+/* Skills.css */
+.skills-container {
+    padding: 2rem;
+    background-color: #121212;
+    color: #e0e0e0;
+  }
+  
+  .skills-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .skill-box {
+    background: #1c1c1e;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .icon {
+    font-size: 3rem;
+    color: #e63946;
+  }
+  
+  h2 {
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+  }
+  
